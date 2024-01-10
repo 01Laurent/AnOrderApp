@@ -9,6 +9,7 @@ namespace anorderapp
     class Cart
     {
         private List<string> cartItems;
+        private List<string> paymentMethods;
 
         public void DisplayCartItems()
         {
